@@ -1,0 +1,244 @@
+* {
+  margin-bottom: 4px;
+  box-sizing: border-box;
+}
+* main {
+  width: 100%;
+}
+
+.apropos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.apropos .apropos_text {
+  background-color: #ff5928;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.apropos h2 {
+  color: white;
+}
+.apropos p {
+  text-align: center;
+}
+.apropos button {
+  color: white;
+  margin-bottom: 6px;
+  border: none;
+  background-color: black;
+  padding: 2%;
+}
+
+.hero {
+  background-image: url(../images/heroimage.webp);
+  background-size: 150%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  text-align: center;
+  color: white;
+}
+.hero button {
+  border: none;
+  border-radius: 20px;
+}
+.hero .appel {
+  margin-bottom: 6px;
+  color: white;
+  background-color: black;
+}
+.hero .commencer {
+  background-color: #ff5928;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.confiance svg {
+  width: 3%;
+}
+.confiance h2 {
+  color: white;
+  background-image: url(../images/2hommes-portent-un-meuble.webp);
+  background-size: 120%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confiance .confiance_etape {
+  display: flex;
+}
+.confiance .lg {
+  color: white;
+  background-color: black;
+}
+.confiance .b {
+  color: white;
+  background-color: #ff5928;
+}
+.confiance .r {
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+@media (min-width: 600px) {
+  .confiance_etape {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .lg {
+    grid-column: 1;
+  }
+}
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  list-style-type: none;
+  max-width: 100%;
+  gap: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+header a:hover {
+  color: #FF5928;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header li {
+  font-size: 90%;
+  width: 100%;
+}
+header button {
+  margin-top: 5%;
+  padding: 2%;
+  background-color: #FF5928;
+  border: none;
+  margin-bottom: 6px;
+}
+
+.satisfaits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.satisfaits .logo {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.satisfaits span {
+  font-weight: bold;
+}
+
+.devis {
+  background-color: #ff5b29;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.devis .h2 p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.devis form {
+  background-color: #ff5b29;
+}
+.devis input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.devis button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+@media (min-width: 600px) {
+  .devis {
+    display: flex;
+    flex-direction: row;
+  }
+  .devis_texte {
+    text-align: center;
+  }
+  .devis_texte p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+.services {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services img {
+  width: 100%;
+}
+.services .mosaique {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services p {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.services button {
+  border: none;
+  margin-bottom: 6%;
+  background-color: #ff5928;
+}
+
+footer {
+  font: size 10%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: black;
+}
+footer svg {
+  margin: 4%;
+  height: 12%;
+  width: 12%;
+  background-color: white;
+}/*# sourceMappingURL=home.css.map */

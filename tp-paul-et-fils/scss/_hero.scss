@@ -1,0 +1,29 @@
+.hero {
+  background-image: url(../images/heroimage.webp);
+  background-size: 150%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  button {
+    border: none;
+    border-radius: 20px;
+  }
+  .appel {
+    margin-bottom: 6px;
+    color: white;
+    background-color: black;
+  }
+  .commencer {
+    background-color: #ff5928;
+    color: white;
+    margin-bottom: 8px;
+  }
+}

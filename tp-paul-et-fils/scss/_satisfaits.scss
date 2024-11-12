@@ -1,0 +1,15 @@
+.satisfaits{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    .logo{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    span{
+        font-weight: bold;
+    }
+}
+

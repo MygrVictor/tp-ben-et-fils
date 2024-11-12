@@ -1,0 +1,43 @@
+.devis{
+    
+    background-color:#ff5b29;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .h2 p{
+        text-align: center;
+        
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+form{
+    background-color: #ff5b29;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+}
+@media (min-width: 600px) {
+    .devis{
+        display: flex;
+        flex-direction:row ;
+    }
+    .devis_texte{
+        text-align: center;
+        p{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+}
