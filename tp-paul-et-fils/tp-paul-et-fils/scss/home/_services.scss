@@ -1,0 +1,48 @@
+.services{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{ width: 100%;
+    }
+    .mosaique{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center
+
+    }
+    p{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    button{
+        border: none;
+        margin-bottom: 6%;
+        background-color: #ff5928;
+    }
+
+@media (min-width: 600px) {
+    h2{
+        padding: 5%;
+        font-size: 40px;
+    }
+    .mosaique{
+        display: grid;
+        padding-left: 4%;
+        padding-right: 4%;
+        gap:2%;
+        grid-template-columns: repeat( 2 , 1fr);
+    grid-template-rows:repeat( 2 , 1fr);
+        
+    }
+    p{
+        padding: 0;
+    }
+   
+   }
+}
+ 

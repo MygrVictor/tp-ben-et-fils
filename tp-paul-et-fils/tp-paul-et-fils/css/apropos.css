@@ -1,0 +1,276 @@
+.devis {
+  background-color: #ff5b29;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.devis .h2 p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.devis form {
+  background-color: #ff5b29;
+}
+.devis input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.devis button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+@media (min-width: 600px) {
+  .devis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    padding: 5%;
+  }
+  .devis_texte {
+    color: white;
+  }
+  .devis_texte h2 {
+    font-size: 250%;
+  }
+  .devis_texte p {
+    margin-right: 20%;
+  }
+}
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 100%;
+}
+header nav {
+  width: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  max-width: 100%;
+  gap: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+header a:hover {
+  color: #ff5928;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header li {
+  font-size: 100%;
+  width: 100%;
+}
+header button {
+  padding: 2%;
+  background-color: #ff5928;
+  border: none;
+}
+
+@media (min-width: 600px) {
+  header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header button {
+    height: 100%;
+    background-color: #ff5928;
+    border: none;
+  }
+}
+* {
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+* main {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  * {
+    font-family: "Roboto", serif;
+    margin: 0;
+  }
+}
+.hero h1 {
+  color: white;
+  height: 10vh;
+  text-align: center;
+  background-color: #ff5928;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero p {
+  text-align: center;
+}
+.hero .p_first {
+  padding-bottom: 4px;
+}
+
+@media (min-width: 600px) {
+  .hero {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    height: 100vh;
+    width: 100%;
+  }
+  .p {
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 50%;
+    font-size: 100%;
+  }
+}
+.confiance h2 {
+  color: white;
+  background-image: url(../images/2hommes-portent-un-meuble.webp);
+  background-size: 120%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confiance .confiance {
+  display: flex;
+  height: 10vh;
+}
+.confiance .confiance_orga {
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+.confiance .confiance_emballer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.confiance .confiance_demenager {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.confiance .confiance_deballer {
+  text-align: center;
+  color: white;
+  background-color: #ff5928;
+}
+
+@media (min-width: 600px) {
+  .confiance_text {
+    display: flex;
+    flex-direction: row;
+  }
+  .confiance h2 {
+    font-size: 40Px;
+  }
+  .confiance_orga {
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  .confiance_emballer {
+    color: white;
+    background-color: #ff5928;
+    justify-content: center;
+    align-items: center;
+  }
+  .confiance_demenager {
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.qualite {
+  background-image: url(/images/hommecarton.webp);
+  background-size: 150%;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+footer {
+  font: size 10%;
+  color: white;
+  background-color: black;
+}
+footer svg {
+  margin: 4%;
+  height: 12%;
+  width: 12%;
+  background-color: white;
+}
+
+@media (min-width: 600px) {
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer_horaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer_ressources {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=apropos.css.map */

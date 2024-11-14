@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/tp-paul-et-fils/textes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tp-paul-et-fils"
+	}
+}

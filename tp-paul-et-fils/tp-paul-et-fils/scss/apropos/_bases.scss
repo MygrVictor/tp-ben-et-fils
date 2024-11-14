@@ -1,0 +1,17 @@
+* {margin-bottom: 4px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+  
+  main {
+    width: 100%;
+  }
+  
+   }
+   @media (min-width: 600px)
+   {
+    *{
+      font-family: "Roboto", serif;
+      margin:0;
+    }
+   }

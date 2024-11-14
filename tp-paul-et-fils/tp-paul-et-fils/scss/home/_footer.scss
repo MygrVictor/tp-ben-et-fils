@@ -1,0 +1,44 @@
+footer{
+    font: size 10%;
+    
+    
+    
+    color: white;
+    background-color: black;
+    svg{ 
+        margin: 4%;
+        height: 12%;
+        width: 12%;
+        background-color: white;
+       
+    }
+     
+}
+@media (min-width: 600px){
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+    .footer_contact{
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer_horaires{
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer_ressources{
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer_logo{
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,72 @@
+.confiance{
+   
+    
+   h2{
+    color: white;
+    background-image:url(../images/2hommes-portent-un-meuble.webp);
+    background-size: 120%;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.confiance{
+    display: flex;
+    height: 10vh;
+}
+.confiance_orga{ 
+    text-align: center;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    
+}
+.confiance_emballer{ 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    
+}
+.confiance_demenager{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color:white;
+}
+.confiance_deballer{
+    text-align: center;
+    color: white;
+    background-color:#ff5928;
+}
+ }
+@media (min-width: 600px) {
+    .confiance_text{
+       display: flex;
+        flex-direction: row;
+    }
+    .confiance h2{
+    font-size: 40Px;
+       
+
+    }
+    .confiance_orga{ 
+        color: white;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .confiance_emballer{ 
+        color: white;
+        background-color:#ff5928;
+        justify-content: center;
+        align-items: center;
+    }
+    .confiance_demenager{ border:2px solid black;
+        color: rgb(0, 0, 0);
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+ }

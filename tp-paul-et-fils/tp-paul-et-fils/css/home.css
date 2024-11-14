@@ -1,0 +1,400 @@
+* {
+  margin-bottom: 4px;
+  box-sizing: border-box;
+}
+* main {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  * {
+    font-family: "Roboto", serif;
+    margin: 0;
+  }
+}
+.apropos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.apropos .apropos_text {
+  background-color: #ff5928;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.apropos h2 {
+  color: white;
+}
+.apropos button {
+  color: white;
+  margin-bottom: 6px;
+  border: none;
+  background-color: black;
+  padding: 2%;
+}
+
+@media (min-width: 600px) {
+  .apropos {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .apropos img {
+    width: 50%;
+  }
+  .apropos .apropos_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .apropos h2 {
+    font-size: 30px;
+  }
+}
+.hero {
+  background-image: url(../images/heroimage.webp);
+  background-size: 150%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  text-align: center;
+  color: white;
+}
+.hero button {
+  border: none;
+}
+.hero .appel {
+  color: white;
+  background-color: black;
+}
+.hero .commencer {
+  background-color: #ff5928;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .hero {
+    background-size: 100%;
+    background-size: 100%;
+    padding-left: 10%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  h1 {
+    font-size: 36px;
+    text-align: start;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .hero_bouton {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 120px;
+  }
+}
+.confiance svg {
+  width: 3%;
+}
+.confiance h2 {
+  color: white;
+  background-image: url(../images/2hommes-portent-un-meuble.webp);
+  background-size: 120%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confiance .confiance_etape {
+  display: flex;
+  height: 10vh;
+}
+.confiance .lg {
+  color: white;
+  background-color: black;
+}
+.confiance .b {
+  color: white;
+  background-color: #ff5928;
+}
+.confiance .r {
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+@media (min-width: 600px) {
+  .confiance_text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 100px;
+    height: 20vh;
+  }
+  .confiance h2 {
+    font-size: 40Px;
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  .lg {
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  .b {
+    color: white;
+    background-color: #ff5928;
+    justify-content: center;
+    align-items: center;
+  }
+  .r {
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 100%;
+}
+header nav {
+  width: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  max-width: 100%;
+  gap: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+header a:hover {
+  color: #ff5928;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header li {
+  font-size: 100%;
+  width: 100%;
+}
+header button {
+  padding: 2%;
+  background-color: #ff5928;
+  border: none;
+}
+
+@media (min-width: 600px) {
+  header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header button {
+    height: 100%;
+    background-color: #ff5928;
+    border: none;
+  }
+}
+.satisfaits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.satisfaits .logo {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.satisfaits span {
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .satisfaits {
+    padding-top: 2%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .satisfaits p {
+    padding-top: 2%;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+  .satisfaits span {
+    padding-top: 1%;
+  }
+}
+.devis {
+  background-color: #ff5b29;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.devis .h2 p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.devis form {
+  background-color: #ff5b29;
+}
+.devis input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.devis button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+@media (min-width: 600px) {
+  .devis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    padding: 5%;
+  }
+  .devis_texte {
+    color: white;
+  }
+  .devis_texte h2 {
+    font-size: 250%;
+  }
+  .devis_texte p {
+    margin-right: 20%;
+  }
+}
+.services {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services img {
+  width: 100%;
+}
+.services .mosaique {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services p {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.services button {
+  border: none;
+  margin-bottom: 6%;
+  background-color: #ff5928;
+}
+@media (min-width: 600px) {
+  .services h2 {
+    padding: 5%;
+    font-size: 40px;
+  }
+  .services .mosaique {
+    display: grid;
+    padding-left: 4%;
+    padding-right: 4%;
+    gap: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .services p {
+    padding: 0;
+  }
+}
+
+footer {
+  font: size 10%;
+  color: white;
+  background-color: black;
+}
+footer svg {
+  margin: 4%;
+  height: 12%;
+  width: 12%;
+  background-color: white;
+}
+
+@media (min-width: 600px) {
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer_horaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer_ressources {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=home.css.map */
